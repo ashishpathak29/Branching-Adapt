@@ -1,0 +1,17 @@
+{
+  "name": "adapt-v3-yesno-table",
+  "version": "3.1.2",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-question",
+  "authors": [
+    "Łukasz Grela <lukasz.grela@commelius.com>"
+  ],
+  "displayName" : "Yes/No Table Question",
+  "component" : "question",
+  "description": "A Yes/No (Don't know) Table Question",
+  "main": "/js/adapt-v3-yesno-table.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": ""
+}

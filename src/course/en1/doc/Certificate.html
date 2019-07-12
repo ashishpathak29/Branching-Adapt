@@ -1,0 +1,96 @@
+<html>
+
+<head>
+<title>Certificate</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body id="main" class="Certificate" >
+
+<img style="position:absolute; left:314; top:0; margin: 0px auto; width: 1000px;" src="../doc/Certificate.jpg" />
+<span style="position:absolute; left:180px; top:330px; width:350px;  font-size: 18px; text-align:center; color:black;xbackground-color:green" id="nameBox"></span>
+<div style="position:absolute; left:460px; top:493; width:350px;  font-size: 18px; text-align:center; color:black;xbackground-color:green" id="nameBox2"><input style="font-size: 18; font-family:Arial; background:none;border:none;  text-align:center" type="text" id="Text1" name="fname" /></div>
+<span style="position:absolute; left:505px; top:550; width:270px; font-size: 18px; color:black; text-align:center;xbackground-color:green" id="dateBox"></span>
+<div id="bottomContent" name="bottomContent" style="position:absolute; top:745px; left:0px; width:100%" align="center">
+  <p>
+  <input type="button" name="print" id="print" onclick="printContent();" value="Print Certificate" />
+  <input type="button" name="close" id="close" onclick="closeWin();" value="Close" />
+    <br>
+    <br>
+      <font color="#FF0000" size="2" face="Arial, Helvetica, sans-serif"> Note that you are not required to print the Certificate in order to receive credit for this course. <br/>Click the <b>Close</b> button to close the certificate window.</font>
+</div>
+<script>
+
+
+SetText ("dateBox", DateStr (new Date()));
+
+
+function SetText (id, text)
+{
+	document.getElementById (id).innerHTML = text;
+}
+
+window.onload = function()
+{
+	CallPrint()
+}
+function DateStr (date)
+{
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var sup = "";
+    
+var d = date.getDate();
+
+	switch (d) {
+		case 1:
+		case 21:
+		case 31:
+			sup = "st";
+			break;
+		case 2:
+		case 22:
+			sup = "nd";
+			break;
+		case 3:
+		case 23:
+			sup = "rd";
+			break;
+		default:
+			sup = "th";
+	}
+	
+	return d + "<sup>" + sup + "</sup> " + months [date.getMonth()] + " " + date.getFullYear();
+}
+
+
+function CallPrint() {
+        var prtContent = document.getElementById('main');
+        var WinPrint = window.open('', '', 'width=650,height=910,scrollbars=1,menuBar=1');
+            //WinPrint.document.title = 'Certificate';
+        var str =  prtContent.innerHTML;
+
+        WinPrint.document.write(str);
+        WinPrint.document.title = 'Certificate';
+		window.close();
+		WinPrint.print()
+        WinPrint.document.close();
+        WinPrint.focus();
+		
+    }
+SetText ("nameBox2", window.opener.pipwerks.SCORM.get("cmi.core.student_name"));
+    
+function printContent(){
+
+	window.focus();
+	window.print();
+}
+function closeWin(){
+	self.top.opener=""
+	self.close();
+}
+
+</script>
+
+</body>
+
+</html>

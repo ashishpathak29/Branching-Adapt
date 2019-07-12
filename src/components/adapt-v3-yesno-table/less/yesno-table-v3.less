@@ -1,0 +1,316 @@
+@column-result-width: 40px;
+@column-text-value-padding: 20px;
+@table-border-style: 1px solid @item-text-color;
+
+.disable-transition-all-colors {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: all 0 none;
+    transition: none;
+}
+
+.yesno-table-v3-component {
+    .yesno-table-v3-widget {
+        .yesno-table-v3-table {
+            display: table;
+            width: 100%;
+            background-color: @item-color;
+            border-collapse: collapse;
+
+            .yesno-table-v3-row {
+                display: table-row;
+
+                &:first-child {
+                    .yesno-table-v3-cell {
+                        //padding: 10px 10px 0px 10px;
+                    }
+                }
+
+                &.even, &.odd {
+                    border-bottom: @table-border-style;
+                }
+
+                &:nth-child(n+1) {
+                    border-bottom: @table-border-style;
+                }
+
+                &.last {
+                    border-bottom: inherit;
+
+                    .yesno-table-v3-cell {
+                        //padding: 10px 10px 10px 10px;
+                    }
+                }
+
+                &:last-child {
+                    border-bottom: inherit;
+
+                    .yesno-table-v3-cell {
+                        //padding: 10px 10px 10px 10px;
+                    }
+                }
+
+                &.correct {
+                    .yesno-table-v3-column-result {
+                        .yesno-table-v3-radio-button-icon-correct {
+                            display: block;
+                        }
+
+                        .yesno-table-v3-radio-button-icon-incorrect {
+                            display: none;
+                        }
+                    }
+                }
+
+                &.incorrect {
+                    .yesno-table-v3-column-result {
+                        .yesno-table-v3-radio-button-icon-correct {
+                            display: none;
+                        }
+
+                        .yesno-table-v3-radio-button-icon-incorrect {
+                            display: block;
+                        }
+                    }
+                }
+
+                &.disabled {
+                    .yesno-table-v3-column-radio {
+                        cursor: default;
+                        background-color: @item-disabled-color;
+
+                        &:hover {
+                            background-color: @item-disabled-color;
+                        }
+
+                        button {
+                            cursor: default;
+
+                            &:hover {
+                                background-color: @item-disabled-color;
+                            }
+                        }
+
+                        &.selected {
+                            background-color: @item-hover-color;
+
+                            button {
+
+                                &:hover {
+                                    background-color: @item-hover-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .yesno-table-v3-row-title {
+            line-height: 60px;
+        }
+
+        .yesno-table-v3-cell {
+            display: table-cell;
+            //padding: 10px 10px 0px 10px;
+        }
+
+        .yesno-table-v3-column-text {
+            color: white;
+
+            .text-value {
+                padding: @column-text-value-padding;
+                font-weight: bold;
+            }
+        }
+
+        .yesno-table-v3-column-radio {
+            width: 100px;
+            text-align: center;
+            vertical-align: middle;
+            border-left: @table-border-style;
+            cursor: pointer;
+            .disable-transition-all-colors;
+
+            &:hover {
+                background-color: @item-hover-color;
+            }
+
+            button {
+                //width: 100%;
+                background-color: transparent;
+                padding-left: 5px;
+                padding-right: 5px;
+                .disable-transition-all-colors;
+
+                &:hover {
+                    background-color: @item-hover-color;
+                }
+            }
+
+            .dir-rtl & {
+                border-left: none;
+                border-right: @table-border-style;
+            }
+
+            &.selected {
+                background-color: @item-hover-color;
+
+                .yesno-table-v3-radio-button-icon {
+                    &:before {
+                        content: "\e65d";
+                    }
+                }
+            }
+        }
+
+        .yesno-table-v3-column-result {
+            width: @column-result-width;
+            text-align: center;
+            vertical-align: middle;
+
+            .icon {
+                width: initial;
+            }
+        }
+
+        .yesno-table-v3-column-radio-title {
+            cursor: default;
+
+            &:hover {
+                background-color: inherit;
+            }
+
+            .yesno-table-v3-radio-label {
+                display: block;
+            }
+        }
+
+        .yesno-table-v3-radio-label {
+            color: @item-text-color;
+            font-weight: bold;
+            display: none;
+        }
+
+        .yesno-table-v3-radio-label-yes {
+        }
+
+        .yesno-table-v3-radio-label-dont-know {
+        }
+
+        .yesno-table-v3-radio-label-no {
+        }
+
+        .yesno-table-v3-radio-button-icon {
+            //position: absolute;
+            color: @item-text-color;
+            display: inline-block;
+            width: 26px; //2px bigger than icon to avoid crop
+            &:before {
+                content: "\e65e";
+            }
+        }
+
+        .yesno-table-v3-radio-button-icon-correct {
+            color: @icon-correct-color;
+            display: none;
+        }
+
+        .yesno-table-v3-radio-button-icon-incorrect {
+            color: @icon-incorrect-color;
+            display: none;
+        }
+    }
+}
+
+.size-small {
+    .yesno-table-v3-component {
+        .yesno-table-v3-widget {
+            .yesno-table-v3-table {
+
+                .yesno-table-v3-row {
+                    display: inline-block;
+                    position: relative;
+                }
+
+                .yesno-table-v3-row.yesno-table-v3-row-title {
+                    display: none;
+                }
+            }
+
+            .yesno-table-v3-radio-label {
+                display: block;
+                margin-bottom: 6px;
+            }
+
+            .yesno-table-v3-column-text {
+                display: inline-block;
+                width: 100%;
+                border-bottom: @table-border-style;
+
+                .text-value {
+                    padding: @column-text-value-padding;
+                    padding-right: @column-result-width;
+
+                    .dir-rtl& {
+                        padding-right: @column-text-value-padding;
+                        padding-left: @column-result-width;
+                    }
+                }
+            }
+
+            .yesno-table-v3-column-result {
+                display: block;
+                position: absolute;
+                top: @column-text-value-padding;
+                right: 0;
+
+                .dir-rtl& {
+                    left: 0;
+                    right: auto;
+                }
+            }
+
+            .yesno-table-v3-column-radio {
+                width: 25%;
+                display: block;
+                float: left;
+                border: none;
+
+                .dir-rtl& {
+                    float: right;
+                }
+            }
+
+            .yesno-table-v3-radio-no {
+                border-left: @table-border-style;
+
+                .dir-rtl& {
+                    border-left: none;
+                    border-right: @table-border-style;
+                }
+            }
+
+            .yesno-table-v3-radio-dont-know {
+                border-left: @table-border-style;
+
+                .dir-rtl& {
+                    border-left: none;
+                    border-right: @table-border-style;
+                }
+            }
+
+            &.two-column-table {
+                .yesno-table-v3-column-radio {
+                    width: 49.8%; //when border used we have to make it bit smaller (50%)
+                }
+            }
+
+            .yesno-table-v3-radio-dont-know {
+                width: 49.0%; //when border used we have to make it bit smaller (50%)
+            }
+        }
+    }
+}

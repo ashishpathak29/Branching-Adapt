@@ -1,0 +1,95 @@
+﻿{
+  {
+    "_id": "c-173",
+    "_parentId": "b-70",
+    "_type": "component",
+    "_component": "yesno-table-v3",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_isRandom": false,
+    "title": "Yes/No table 2",
+    "displayTitle": "Yes/No table 2",
+    "_showDontKnow": true,
+    "body": "Yes/Don't know/No 3 column table example",
+    "_items": [
+      {
+        "text": "1. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Yes)",
+        "_correctIndex": 0
+      },
+      {
+        "text": "2. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Yes)",
+        "_correctIndex": 0
+      },
+      {
+        "text": "3. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Don't know)",
+        "_correctIndex": 1
+      },
+      {
+        "text": "4. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (No)",
+        "_correctIndex": 2
+      }
+    ],
+    "_feedback": {
+      "correct": "That's correct. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile.",
+      "_incorrect": {
+        "notFinal": "Sorry, that's not right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile.",
+        "final": "Sorry, that's not right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile."
+      },
+      "_partlyCorrect": {
+        "notFinal": "That's not quite right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile.",
+        "final": "That's not quite right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile."
+      }
+
+    }
+  },
+  {
+    "_id": "c-173",
+    "_parentId": "b-70-4",
+    "_type": "component",
+    "_component": "yesno-table-v3",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_isRandom": false,
+    "title": "Yes/No table 2",
+    "displayTitle": "Yes/No table 2",
+    "body": "Two column example with modified column labels to Effective/Ineffective.",
+    "_columnLabels": {
+      "col0": "Effective",
+      "col2": "Ineffective"
+    },
+    "_items": [
+      {
+        "text": "1. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Effective)",
+        "_correctIndex": 0
+      },
+      {
+        "text": "2. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Effective)",
+        "_correctIndex": 0
+      },
+      {
+        "text": "3. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Effective)",
+        "_correctIndex": 0
+      },
+      {
+        "text": "4. Lorem ipsum dolor sit amet, consectetur adipisicing yum elit. (Ineffective)",
+        "_correctIndex": 2
+      }
+    ],
+    "_feedback": {
+      "correct": "That's correct. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile.",
+      "_incorrect": {
+        "notFinal": "Sorry, that's not right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile.",
+        "final": "Sorry, that's not right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile."
+      },
+      "_partlyCorrect": {
+        "notFinal": "That's not quite right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile.",
+        "final": "That's not quite right. Your users are almost certainly using vertical scrolling whenever they interact with the web so why reinvent the wheel? Scrolling is also a given when viewing content on a smartphone so any page which is structured with this in mind will help make the design and its navigation feel well thought through for mobile."
+      }
+
+    }
+  }
+}

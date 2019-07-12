@@ -1,0 +1,44 @@
+// Navigation styling
+// ==================
+
+.navigation {
+    width: 100%;
+    overflow: hidden;
+   background:@white;
+    left: 0;
+    right: 0;
+    height: auto;
+    
+    .navigation-inner {
+        width: 90%;
+       /* max-width: @device-width-large;*/
+       /* background:url('../../course/en/images/menu-images/logo.png') no-repeat left center / 120px;*/
+        margin: 0 auto;
+        padding: 5px 0;
+        height: (@navigation-padding * 2) + @icon-size;
+        @media all and (max-width: (@device-width-small)) {
+            /*background:url('../../course/en/images/menu-images/mobile-logo.png') no-repeat left center;*/
+        }
+    }
+
+    .ie8 & {
+        max-width: @ie8-max-width;
+    }
+
+    .icon {
+        float: right;
+       /* border-radius: 50%;*/
+      /*  background: #6dbf57;*/
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        color: @white;
+       .transition-color;
+
+        .no-touch &:hover {
+            color: @white;
+           /* background: #6dbf57;*/
+        }
+    }
+
+}

@@ -1,0 +1,148 @@
+[
+    
+    {
+        "_id": "a-05",
+        "_parentId": "co-05-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 1 - quiz",
+        "displayTitle": "",
+        "body": "",
+        "_bookmarking": {
+            "_isEnabled": false
+        },
+         "_assessment": {
+			"_isEnabled": false,
+			"_id": "a-05",
+			"_isPercentageBased": true,
+			"_scoreToPass": 80,
+			"_includeInTotalScore": true,
+			"_assessmentWeight": 1,
+              "_banks": {
+                    "_isEnabled":false,
+                    "_split": "1,2",
+                    "_randomisation": true
+                },
+                "_randomisation":{
+                    "_isEnabled": false,
+                    "_blockCount": 1
+                },
+			"_questions": {
+				"_resetType": "hard",
+				"_canShowFeedback": false,
+				"_canShowMarking": false
+			},
+			"_isResetOnRevisit": true,
+			"_attempts": "1"
+		}
+	},
+    {
+        "_id": "a-10",
+        "_parentId": "co-10-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    {
+        "_id": "a-15",
+        "_parentId": "co-15-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+   {
+        "_id": "a-20",
+        "_parentId": "co-20-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+     {
+        "_id": "a-21",
+        "_parentId": "co-21-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    {
+        "_id": "a-22",
+        "_parentId": "co-22-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+     {
+        "_id": "a-23",
+        "_parentId": "co-23-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    
+     {
+        "_id": "a-25",
+        "_parentId": "co-25-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    {
+        "_id": "a-26",
+        "_parentId": "co-26-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    {
+        "_id": "a-27",
+        "_parentId": "co-27-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+     {
+        "_id": "a-30",
+        "_parentId": "co-30-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    {
+        "_id": "a-31",
+        "_parentId": "co-31-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	},
+    {
+        "_id": "a-32",
+        "_parentId": "co-32-FM",
+        "_type": "article",
+        "_classes": "",
+        "title": "Module 2",
+        "displayTitle": "",
+        "body": ""
+	}
+]

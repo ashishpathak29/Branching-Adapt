@@ -1,0 +1,17 @@
+{
+  "name": "adapt-graphic-small",
+  "version": "0.5.0",
+  "framework": "^2.0.0",
+  "displayName": "Graphic",
+  "component": "graphic",
+  "assetFields": [
+    "_graphic.small",
+    "_graphic.large"
+  ],
+  "description": "Graphic component which dynamically displays small and large images of different resolutions based upon device width",
+  "main": "/js/adapt-graphic-small.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ]
+}

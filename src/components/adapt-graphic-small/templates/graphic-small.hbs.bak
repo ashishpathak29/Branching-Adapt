@@ -1,0 +1,15 @@
+<div class="graphic-small-outer">
+<div class="graphic-small-inner component-inner" role="region" aria-label="{{_globals._components._graphic.ariaRegion}}" style="background-image:url({{bgImage}});">
+   
+    <div class="graphic-small-inner-title">{{{innerTitle}}}</div>
+    {{#if manImg}}
+    <img src="{{manImg}}"/>
+    {{/if}}
+    <div class="graphic-small-inner-body"><span>{{{body}}}</span></div>
+    <div class="graphic-widget component-widget">
+       {{#if _scrollTo}}<a href="#">{{/if}}
+        <img src="{{_graphic.src}}" aria-label="{{_graphic.alt}}" data-large="{{_graphic.large}}" data-small="{{_graphic.small}}"  tabindex="0"/>
+        {{#if _scrollTo}}</a>{{/if}}
+    </div>
+</div>
+</div>

@@ -1,0 +1,69 @@
+{{!-- Maintainers - Shubhendu Vaid, Łukasz 'Severiaan' Grela --}}
+<div class="yesno-table-v3-inner component-inner">
+    {{#if title}}
+    <div class="yesno-table-v3-title component-title">
+        <h4 class="yesno-table-v3-title-inner component-title-inner">
+            {{{displayTitle}}}
+        </h4>
+    </div>
+    {{/if}} {{#if body}}
+    <div class="yesno-table-v3-body component-body">
+        <div class="yesno-table-v3-body-inner component-body-inner">
+            {{{body}}}
+        </div>
+    </div>
+    {{/if}}
+    <div class="yesno-table-v3-widget component-widget {{#unless _isEnabled}} disabled {{#if _isComplete}} complete submitted user {{#if _isCorrect}}correct{{/if}} {{/if}} {{/unless}}{{#unless _showDontKnow}} two-column-table{{/unless}}">
+        <div class="yesno-table-v3-table">
+            <div class="yesno-table-v3-row yesno-table-v3-row-title">
+                <div class="yesno-table-v3-cell yesno-table-v3-column-text">&nbsp;</div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-result">&nbsp;</div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-radio yesno-table-v3-column-radio-title">
+                    <span class="yesno-table-v3-radio-label yesno-table-v3-radio-label-yes">{{_columnLabels.col0}}</span>
+                </div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-radio yesno-table-v3-column-radio-title{{#unless _showDontKnow}} display-none{{/unless}}">
+                    <span class="yesno-table-v3-radio-label yesno-table-v3-radio-label-dont-know">{{_columnLabels.col1}}</span>
+                </div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-radio yesno-table-v3-column-radio-title">
+                    <span class="yesno-table-v3-radio-label yesno-table-v3-radio-label-no">{{_columnLabels.col2}}</span>
+                </div>
+            </div>
+            {{#each _items}}
+            <div class="yesno-table-v3-row component-item {{#unless ../_isEnabled}} {{#if _isCorrect}}correct{{else}}incorrect{{/if}} {{/unless}} item-{{@index}}">
+                <div class="yesno-table-v3-cell yesno-table-v3-column-text"><div class="text-value">{{text}}</div></div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-result">
+                    <div class="yesno-table-v3-radio-button-icon-correct icon icon-tick"></div>
+                    <div class="yesno-table-v3-radio-button-icon-incorrect icon icon-cross"></div>
+                </div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-radio yesno-table-v3-column-radio-button yesno-table-v3-radio-yes">
+                    <button>
+                        <span class="yesno-table-v3-radio-label yesno-table-v3-radio-label-yes">{{../_columnLabels.col0}}</span>
+                        <div class="yesno-table-v3-radio-button">
+                            <div class="yesno-table-v3-radio-button-icon icon"></div>
+                        </div>
+                    </button>
+                </div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-radio yesno-table-v3-column-radio-button yesno-table-v3-radio-dont-know{{#unless ../_showDontKnow}} display-none{{/unless}}">
+                    <button>
+                        <span class="yesno-table-v3-radio-label yesno-table-v3-radio-label-dont-know">{{../_columnLabels.col1}}</span>
+                        <div class="yesno-table-v3-radio-button">
+                            <div class="yesno-table-v3-radio-button-icon icon"></div>
+                        </div>
+                    </button>
+                </div>
+                <div class="yesno-table-v3-cell yesno-table-v3-column-radio yesno-table-v3-column-radio-button yesno-table-v3-radio-no">
+                    <button>
+                        <span class="yesno-table-v3-radio-label yesno-table-v3-radio-label-no">{{../_columnLabels.col2}}</span>
+                        <div class="yesno-table-v3-radio-button">
+                            <div class="yesno-table-v3-radio-button-icon icon"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="buttons">
+            {{> buttons this}}
+        </div>
+    </div>
+</div>

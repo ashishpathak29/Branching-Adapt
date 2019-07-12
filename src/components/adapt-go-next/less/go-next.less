@@ -1,0 +1,38 @@
+.go-next-component {
+    .go-next-button {
+        width: 100%;
+        background: #004285;
+        position: relative;
+        padding:50px 0;
+        &:after{
+            content: "";
+            display: block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: @white url(../../course/en/images/mod-1/back-icon1.png) no-repeat center center;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            margin-left: -30px;
+            box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.3);
+        }
+        &:hover{
+            background: #004285 !important;
+            border-color: #004285 !important;
+        }
+    }
+
+}
+.block.go-next-block {
+    .block-inner {
+        padding: 0 !important;
+        min-height: 0;//IE
+        min-height: initial;
+        max-width: 100%;//IE
+        max-width: initial;
+    }
+}
+.go-next-hidden {
+    display: none;
+}

@@ -1,0 +1,401 @@
+[
+    {
+        "_id": "co-05-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro1.png' /><div class='box-content'><span class='clock'>4 minutes</span><span class='numberBox'>01</span><h2>1</h2><h4>Introduction</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-20-FM","co-25-FM"]
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": true
+		}
+    },
+   {
+        "_id": "co-10-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro2.png' /><div class='box-content'><span class='clock'>4 minutes</span><span class='numberBox'>02</span><h2>2</h2><h4>Stress and<br/>Humanitarian Work</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },  
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+   {
+        "_id": "co-15-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro3.png' /><div class='box-content'><span class='clock'>10 minutes</span><span class='numberBox'>03</span><h2>3</h2><h4>From Boredom<br/>to Burnout</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+     {
+        "_id": "co-20-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro4.png' /><div class='box-content'><span class='clock'>22 minutes</span><span class='numberBox'>04</span><h2>4</h2><h4>Tackling Stress and<br/>Building Resilience</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-05-FM"]
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+    {    
+    "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-21-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro4.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>04</span><h2>4</h2><h4>Tackling Stress and<br/>Building Resilience</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    },
+    {    
+    "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-22-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro4.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>04</span><h2>4</h2><h4>Tackling Stress and<br/>Building Resilience</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    },
+     {    
+    "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-23-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro4.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>04</span><h2>4</h2><h4>Tackling Stress and<br/>Building Resilience</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    },
+     
+     {
+        "_id": "co-25-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro5.png' /><div class='box-content'><span class='clock'>15.5 minutes</span><span class='numberBox'>05</span><h2>5</h2><h4>Facing Traumatic<br/>Events</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "duration": "2 mins",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-05-FM"]
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+     {    
+    "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-26-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro5.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>05</span><h2>5</h2><h4>Facing Traumatic<br/>Events</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    },
+     {    
+    "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-27-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro5.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>05</span><h2>5</h2><h4>Facing Traumatic<br/>Events</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    },
+    {
+    
+        "_id": "co-30-FM",
+        "_isAssessment": false,
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-05-FM"]
+        },
+        "body": "<img src='course/en/images/menu-images/Intro6.png' /><div class='box-content'><span class='clock'>12.5 minutes</span><span class='numberBox'>06</span><h2>6</h2><h4>Wellness and Resilience<br/>During Rest and Recovery</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+    {
+     "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-31-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro6.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>06</span><h2>6</h2><h4>Wellness and Resilience<br/>During Rest and Recovery</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    }, 
+    {
+     "_isAvailable": false,
+    "_bookmarking": {
+      "_isEnabled": false
+    },
+        "_id": "co-32-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "content-objectclass",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "<img src='course/en/images/menu-images/Intro6.png' /><div class='box-content'><span class='clock'>xx minutes</span><span class='numberBox'>06</span><h2>6</h2><h4>Wellness and Resilience<br/>During Rest and Recovery</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": []
+        },
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },   
+		"_backgroundSwitcher": {
+			"_isActive": false
+		}
+    },
+     {
+        "_id": "co-35-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-05-FM"]
+        },
+        "body": "<img src='course/en1/images/menu-images/topic07_menu.png' /><div class='box-content'><span class='clock'>12 minutes</span><span class='numberBox'>07</span><h2>7</h2><h4>Prepare</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+    {
+        "_id": "co-40-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-05-FM"]
+        },
+        "body": "<img src='course/en1/images/menu-images/topic08_menu.png' /><div class='box-content'><span class='clock'>19 minutes</span><span class='numberBox'>08</span><h2>8</h2><h4>Support</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  },
+     {
+        "_id": "co-45-FM",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "unlockCondition": {
+        "_comment": "ONLY contentObject ID's",
+        "complete": ["co-05-FM"]
+        },
+        "body": "<img src='course/en1/images/menu-images/topic09_menu.png' /><div class='box-content'><span class='clock'>3 minutes</span><span class='numberBox'>09</span><h2>9</h2><h4>Move On</h4></div>",
+        "linkText": "View",
+        "durationLabel": "Duration:",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_backgroundSwitcher": {
+            "_isActive": true
+        }
+  }
+]

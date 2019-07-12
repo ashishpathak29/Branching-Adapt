@@ -1,0 +1,336 @@
+{
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+            },
+            "_flipcard": {
+                "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+            },
+            "_graphic": {
+                "ariaRegion": ""
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPoupupLabel": "Hotgraphic popup",
+                "ariaPopupLabel": "Hotgraphic popup"
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+            },
+            "_yesno-table-v3": {
+                "ariaRegion": "This component is a Yes or No table. You have selected an option select the submit button below"
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript."
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+            },
+            "_objectMatching": {
+                "ariaRegion": "This question component requires you to select the matching option. When you have selected your answers select the submit button."
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
+            },
+            "_text": {
+                "ariaRegion": ""
+            },
+            "_textinput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            }
+        },
+        "_extensions": {
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "You have completed ",
+                "pageLevelProgressMenuBar": "You have completed ",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_menu-3063": {
+                "ariaRegion": "Menu",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            },
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "durationLabel": "Duration:",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            }
+        },
+        "_accessibility": {
+            "accessibilityToggleTextOn": "Turn accessibility on?",
+            "accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "page": "Page",
+                "pageLoaded": "Page Loaded.",
+                "pageEnd": "You have reached the end of the page.",
+                "previous": "Prev",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Resources",
+                "close": "Close",
+                "closeDrawer": "Close Drawer",
+                "closeResources": "Close resources",
+                "resourcesEnd": "You have reached the end of the list of resources.",
+                "drawerBack": "Back to drawer",
+                "drawer": "Top of side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "Incorrect",
+                "correct": "Correct",
+                "locked": "Locked",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "feedbackPopUp": "Popup opened.",
+                "menuBack": "Back to menu",
+                "visited": "Visited"
+            }
+        }
+    },
+    "_id": "course",
+    "_type": "course",
+    "title": "Wellness and Resilience for Managers",
+    "displayTitle": "<h2>Wellness and Resilience for Managers</h2>",
+    "description": "",
+    "body": "<p>This Wellness and Resilience for Manager course covers the following topics:</p><p><i>Please select a topic to begin.</i></p>",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit"
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset"
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct Answer",
+            "ariaLabel": "Correct Answer"
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My Answer",
+            "ariaLabel": "My Answer"
+        },
+        "_showFeedback": {
+            "buttonText": "Show Feedback",
+            "ariaLabel": "Show Feedback"
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_altText": "of components completed on this page."
+    },
+    "_resources": {
+        "_isEnabled": true,
+        "title": "Resources",
+        "description": "View resources for this course by clicking here.",
+        "_filterButtons": {},
+        "_filterAria": {},
+        "itemAriaExternal": "This content will open in a new window",
+        "_resourcesItems": [
+            {
+                "_type": "document",
+                "title": "Core Humanitarian CompetencyFramework (CHCF)",
+                "description": "",
+                "_link": "course/en1/doc/Core_Humanitarian_Competency_Framework_(CHCF).pdf"
+            },
+            {
+                "_type": "document",
+                "title": "CHS Alliance",
+                "description": "",
+                "_link": "https://www.chsalliance.org/"
+            },
+            {
+                "_type": "document",
+                "title": "Essential Principles of Staff Care",
+                "description": "",
+                "_link": "course/en1/doc/Essential_Principles_of_Staff_Care.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "Relaxation Exercises ",
+                "description": "",
+                "_link": "course/en1/doc/Relaxation_Exercises.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "<img src='course/en1/images/menu-images/FG_icon_white.png' />Facilitation Guide",
+                "description": "",
+                "_link": "course/en1/doc/Facilitation_Guide.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "<img src='course/en/images/mod-2/learnerJor_icon_white1.png' />Learner Journal",
+                "description": "",
+                "_link": "course/en1/doc/LearnerJournal_Manager.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "<img src='course/en1/images/menu-images/Icommit_Icon.png' />I-Commit",
+                "description": "",
+                "_link": "course/en1/doc/ICommit_Manager.pdf"
+            }
+        ]
+    },
+    "_glossary": {
+        "_isEnabled": true,
+        "title": "Glossary",
+        "description": "Click here to view glossary for this course.",
+        "searchPlaceholder": "Search",
+        "searchWithInDescriptionLabel": "Search within Description",
+        "itemNotFoundMessage": "Sorry! No results to display",
+        "_glossaryItems": [
+            {
+                "term": "Stress",
+                "description": "Stress can be both positive and negative.  When it is positive, stress can keep us challenged, engaged and enthusiastic.  Stress becomes negative when it exceeds our ability to cope.  It can leave us feeling overwhelmed, exhausted and not able to manage our day-to-day lives."
+            },
+            {
+                "term": "Resilience",
+                "description": "Resilience is the ability to: <ul><li>Maintain or regain those capacities that are compromised during times of high stress</li><li>Bounce back in the face of adversity, including being able to process the next step or decision and monitor and regulate your emotions and physiological responses</li></ul>"
+            },
+            {
+                "term": "Mindfulness",
+                "description": "<p>According to Jon Kabat-Zinn , &quot;mindfulness means paying attention in a particular way; on purpose, in the present moment, and non judgmentally.&quot;</p><p>Mindfulness practitioners learn how to pay attention on purpose by practising specially developed mindfulness meditation practices & mindful movements.</p>"
+            },
+            {
+                "term": "Wellbeing",
+                "description": "<p>Mental health is defined as a state of well-being in which every individual realizes his or her own potential, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to her or his community’</p><p>World Health Organisation – Retrieved December 2017 from - <a class='wordrap' href='http://www.who.int/features/factfiles/mental_health/en/' target='_blank'>http://www.who.int/features/factfiles/mental_health/en/</a></p>"
+            },
+            {
+                "term": "Cumulative Stress",
+                "description": "<p>Cumulative stress reactions are a less dramatic, more gradual form of stress reaction. They are usually related to low-intensity but more chronic stressors that pervade a person’s life and ‘pile up’. </p><p><a href='http://headington-institute.org/files/understanding-and-coping-with-traumatic-stress_updated-nov-2014_63458.pdf' target='_blank'>http://headington-institute.org/files/understanding-and-coping-with-traumatic-stress_updated-nov-2014_63458.pdf</a></p>"
+            },
+            {
+                "term": "Vicarious Trauma",
+                "description": "<p>Vicarious trauma is inherent to humanitarian work. Humanitarian workers in many roles regularly hear distressing stories, and witness violence, poverty and disaster. This second-hand exposure to suffering places them at high risk of experiencing secondary stress responses.</p><p><a href='http://headington-institute.org/topic-areas/125/topic-sections/246/vicarious-trauma&quot' target='_blank'>http://headington-institute.org/topic-areas/125/topic-sections/246/vicarious-trauma</a></p>"
+            },
+            {
+                "term": "Psychological First Aid (PFA)",
+                "description": "Psychological First Aid is a humane, supportive response to a fellow human being who is suffering and who may need support."
+            },
+            {
+                "term": "Crisis/Critical Incident",
+                "description": "The term ‘crisis’ covers a stressful situation where a person’s previous experiences and coping strategies are not adequate to deal with the situation. A crisis can be sudden and dramatic, but can also develop gradually."
+            },
+            {
+                "term": "Trauma ",
+                "description": "The term ‘trauma’ is used to describe an emotional state of discomfort and stress. Trauma is caused by the memories of an unusual catastrophic experience, a traumatic event, which violated the person’s feeling of safety and injured the feeling of integrity. In trauma, the person’s existing coping strategies are not adequate to deal with the new experience."
+            }
+        ]
+    },
+    "_assessment": {
+        "_postTotalScoreToLms": true,
+        "_isPercentageBased": true,
+        "_scoreToPass": 80
+    },
+    "_bookmarking": {
+        "_isEnabled": true,
+        "_level": "block",
+        "title": "Bookmarking",
+        "body": "Would you like to continue where you left off?",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "_certificate": {
+        "_isEnabled": false,
+        "openCertificateOnComplete": false,
+        "headingText": "",
+        "boxText": "",
+        "boxTextContinued": "",
+        "courseTitle": "",
+        "courseTitle_type": {
+            "standalone": "",
+            "online": ""
+        },
+        "courseTitle_lang": "",
+        "labelUserId": "Staff ID: ",
+        "labelScore": "",
+        "extraText": "",
+        "dateFormat": " ^o^n d F Y",
+        "dateFormat_comment": "Following letters needs to be escaped with ^ character: dDjlNSwzWFmMntLoYyaABgGhHisueTIOPZcrU",
+        "dateFormatOptions": {
+            "monthNames": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "monthNamesAbbr": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ],
+            "dayNames": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "dayNamesAbbr": [
+                "Sun",
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thur",
+                "Fri",
+                "Sat"
+            ]
+        },
+        "labelPrintButton": "Print Certificate",
+        "labelCloseButton": "Close",
+        "input": {
+            "body": "",
+            "labelName": "",
+            "labelSurname": "",
+            "labelUserId": "",
+            "labelButton": "",
+            "labelCloseButton": ""
+        }
+    },
+    "_latestTrackingId": 253
+}

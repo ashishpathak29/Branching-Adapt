@@ -1,0 +1,126 @@
+{
+	 "_defaultLanguage":"en",
+   "_defaultDirection":"ltr",
+   "_questionWeight":1,
+	"_accessibility": {
+		"_isEnabled": false,
+		"_shouldSupportLegacyBrowsers": true,
+		"_isTextProcessorEnabled": true
+	},
+	"_drawer": {
+		"_showEasing": "easeOutQuart",
+		"_hideEasing": "easeInQuart",
+		"_duration": 400
+	},
+	"_spoor": {
+		"_isEnabled": true,
+		"_tracking": {
+			"_requireCourseCompleted": true,
+			"_requireAssessmentPassed": false,
+			"_shouldSubmitScore": true,
+			"_shouldStoreResponses": true,
+			"_shouldRecordInteractions": false
+		},
+		"_reporting": {
+			"_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
+			"_onTrackingCriteriaMet": "completed",
+			"_onAssessmentFailure": "incomplete",
+			"_resetStatusOnLanguageChange": false
+		}
+	},
+	"_trickle": {
+		"_completionAttribute": "_isComplete"
+	},
+
+"_languagePicker": {
+    "_isEnabled": true,
+    "title": "Humantarian Leadership Academy",
+    "displayTitle": "<div class='welcome-image'><img src='course/en/images/menu-images/logoLaunch.png' alt=''/></div><h3>Welcome to the</h3><h2>Wellness and Resilience</h2><h3>e-learning course.</h3>",
+    "body": "<p>In an age where stress is an ever-increasing part of daily work, more must be done to reduce the effects of stress on individuals.</p><p>This course has been designed specifically for people working in the humanitarian sector, to help you manage your wellness and resilience through stress-reducing strategies and techniques and by providing advice on coping with various stressful situations.</p><p>The content of the course has been adapted for both Frontline Workers and Managers.</p><p><i>Please enter the course by selecting your role.</i></p>",
+    "_showOnCourseLoad": true,
+    "_comment": "default class names are: icon-globe, icon-language-1, icon-language-2",
+    "_languagePickerIconClass": "icon-language-2",
+    "_languages": [
+        {
+            "_language": "en",
+            "_direction": "ltr",
+            "displayName": "Frontline Worker",
+            "warningTitle": "Frontline Worker?",
+            "warningMessage": "",
+            "_buttons": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        {
+            "_language": "en1",
+            "_direction": "ltr",
+            "displayName": "Manager",
+            "warningTitle": "Manager?",
+            "warningMessage": "",
+            "_buttons": {
+                "yes": "Yes",
+                "no": "No"
+            }
+        }
+    ],
+    "_accessibility": {
+        "accessibilityToggleTextOn": "",
+        "accessibilityToggleTextOff": "",
+        "_accessibilityInstructions": {
+            "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+            "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+            "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+        }
+    }
+},
+
+	"_inspector": {
+		"_isEnabled": true,
+		"_allowEnablingViaUrl": true,
+		"_tracUrl": "",
+		"_sendTo": "console"
+	},
+	"_teleporter": {
+		"_allowEnablingViaUrl": true,
+		"_isEnabled": false
+	},
+	"_stickyHeader": {
+		"_isEnabled": false,
+		"throttle": 50
+	},
+	"_sectionHeadings": {
+		"_isEnabled": true,
+		"throttle": 50
+	},
+	"_subTopicMenu": {
+		"_isEnabled": false,
+		"initDelay": 500
+	},
+	"_navButtons":{  
+      "_isEnabled":false,
+      "gap":{  
+         "small":10,
+         "saba":16,
+         "medium":16,
+         "large":20
+      },
+      "items":[  
+         {  
+            "text":"Back",
+            "action":"prev"
+         },
+         {  
+            "text":"Next",
+            "action":"next"
+         }
+      ]
+   },
+	"_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
+	"build": {},
+	"screenSize": {
+		"small": 520,
+		"medium": 760,
+		"large": 900
+	}
+}
